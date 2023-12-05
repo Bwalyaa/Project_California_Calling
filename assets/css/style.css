@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "roboto";
+  src: url("../font/Roboto-Regular.ttf");
+}
+html {
+  font-family: roboto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

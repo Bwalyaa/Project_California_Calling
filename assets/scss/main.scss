@@ -1,0 +1,27 @@
+@use '_font' as fonts;
+@use '_variables' as variables;
+@use '_mixins' as mixins;
+
+html {
+    font-family: fonts.$fontFamily;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fonts.$fontFamily;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-color: variables.$main-background-color;
+    color: variables.$main-color;
+}
+
+// h1{
+//     font-family: fonts.$fontFamily;
+//     color: variables.$main-color;
+// }
+
